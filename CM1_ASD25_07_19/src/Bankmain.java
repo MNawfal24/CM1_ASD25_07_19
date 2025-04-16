@@ -1,5 +1,7 @@
+import java.util.Scanner;
 public class Bankmain {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println(" ==========POLINEMA BANK==========");
             System.out.println("\n BANK MENU:");
