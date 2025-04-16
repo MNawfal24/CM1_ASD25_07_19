@@ -7,6 +7,14 @@ public class ServiceTransaksi {
         Trs = new Transaksi[kapasitas];
     }
 
+    void Tambah(Transaksi t) {
+        if (idx < Trs.length) {
+            Trs[idx] = t;
+            idx++;
+        } else {
+            System.out.println("Kapasitas data transaksi penuh!");
+        }
+    }
     void displayData() {
         for (Transaksi transaksi : Trs) {
             transaksi.tampilDataTransaksi();
