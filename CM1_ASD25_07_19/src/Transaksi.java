@@ -15,6 +15,7 @@ public class Transaksi {
         this.finalSaldo = finalSaldo;
         this.tanggalTransaksi = tanggalTransaksi;
         this.type = type; 
+        this.bankAcc = bankAcc;
     }
 
     void tampilDataTransaksi() {
