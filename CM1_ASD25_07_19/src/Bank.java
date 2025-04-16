@@ -5,6 +5,9 @@ public class Bank {
     String noHp;
     String email;
 
+    Bank() {
+    }
+
     Bank(String noRekening, String nama, String namaIbu, String noHp, String email) {
         this.noRekening = noRekening;
         this.nama = nama;
