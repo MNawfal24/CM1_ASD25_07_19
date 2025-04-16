@@ -1,4 +1,4 @@
-public class Transaksi {
+public class Bankmain {
     public static void main(String[] args) {
         while (true) {
             System.out.println(" ==========POLINEMA BANK==========");
