@@ -16,10 +16,10 @@ public class Bankmain {
 
              switch (pilih) {
              case 1:
-                
+                tampilDataTransaksi();
                  break;
             case 2:
-                
+                CariTrsNohp();
                 break;
             case 3:
                 
