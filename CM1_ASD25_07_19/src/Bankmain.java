@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Bankmain {
     public static void main(String[] args) {
+        ServiceTransaksi Serv = new ServiceTransaksi(5);
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.println(" ==========POLINEMA BANK==========");
