@@ -1,5 +1,3 @@
-import P6.Tugas.Dosen;
-
 public class Transaksi {
     public static void main(String[] args) {
         while (true) {
