@@ -17,7 +17,7 @@ public class Bankmain {
 
              switch (pilih) {
              case 1:
-                tampilDataTransaksi();
+                displayData();
                  break;
             case 2:
                 CariTrsNohp();

@@ -25,7 +25,7 @@ public class ServiceTransaksi {
         }
         if (!found) {
             System.out.println("Data dengan kode transaksi " + CariNo + " tidak ditemukan.");
-        }
+        }
     }
 
     public void sortingASC() {
